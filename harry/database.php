@@ -24,7 +24,7 @@
         email VARCHAR(70) NOT NULL UNIQUE,
         phone INT(10) NOT NULL,
         password VARCHAR(100) NOT NULL, 
-        PRIMARY KEY (id)  --define primary key as this 
+        PRIMARY KEY (id)
     )";
     if(mysqli_query($con, $sql)){
         echo "table users created successfully";
